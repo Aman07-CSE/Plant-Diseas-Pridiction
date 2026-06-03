@@ -1,4 +1,8 @@
-# Python
+# ==============================================================================
+# Plant Disease Prediction Project - GitIgnore
+# ==============================================================================
+
+# --- Python & Flask Backend ---
 __pycache__/
 *.py[cod]
 *$py.class
@@ -27,36 +31,22 @@ MANIFEST
 .pytest_cache/
 .coverage
 htmlcov/
+.dmypy.json
+dmypy.json
 
-# Environment variables
-.env
-.env.local
-.env*.local
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-Thumbs.db
-*.sublime-project
-*.sublime-workspace
-
-# Node/Frontend
+# --- Node.js & React Frontend ---
 frontend/node_modules/
 frontend/dist/
 frontend/build/
 frontend/.vite-cache/
+node_modules/
+dist/
 
-# Jupyter Notebook
+# --- Jupyter Notebooks ---
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# ML Model artifacts
-# ML Model artifacts
-# model weights and intermediates
+# --- ML Model Weight Files & Datasets ---
 plant_model.pth
 *.pth
 *.pt
@@ -64,28 +54,38 @@ plant_model.pth
 *.ckpt
 model_cache/
 checkpoints/
-
-# Large dataset (keep this if you want to exclude the dataset folder)
 plantvillage dataset/
 
-# Archives and attachments (presented as uploaded files)
+# --- Environment Variables & Secrets ---
+.env
+.env.local
+.env*.local
+backend/.env
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vscode-server/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS Specific Files ---
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+*.msix
+
+# --- Archives & Compressed Files ---
 *.zip
 *.tar.gz
 *.tar
 *.rar
 
-# Backend and environment secrets (explicit)
-backend/.env
-.env
-
-# Report and cache files
-*.log
-*.pid
-report_figures/*.png
-report_figures/*.jpg
-report_figures/*.pdf
-
-# Report and Presentation files
+# --- Reports & Presentations (Original Rules) ---
 *.docx
 *.doc
 *.xlsx
@@ -97,19 +97,14 @@ report_figures/*.pdf
 *.pdf
 *.pages
 *.numbers
+report_figures/*.png
+report_figures/*.jpg
+report_figures/*.pdf
 
-# OS specific
-.AppleDouble
-.LSOverride
-*.msix
-.vscode-server/
-
-# PyCharm
-.dmypy.json
-dmypy.json
-
-# Backup files
+# --- Logs, Backups, and Temporary files ---
+*.log
+*.pid
 *.bak
 *.backup
-*~
-.swp
+temp_image.jpg
+.antigravity-ide/
