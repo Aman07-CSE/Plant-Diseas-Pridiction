@@ -38,6 +38,10 @@ CORS(app, resources={r"/api/*": {"origins": "*"}})
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"[INFO] Using device: {DEVICE}")
 
+# Optimize CPU memory usage on Render Free Tier
+if DEVICE.type == "cpu":
+    torch.set_num_threads(1)
+
 # Load class indices
 CLASS_INDICES_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "class_indices.json")
 with open(CLASS_INDICES_PATH, "r") as f:
