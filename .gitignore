@@ -1,0 +1,109 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Node/Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite-cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ML Model artifacts
+*.pth~
+*.pt~
+*.onnx~
+model_cache/
+checkpoints/
+
+# Large dataset (keep this if you want to exclude the dataset folder)
+plantvillage dataset/
+
+# Report and cache files
+*.log
+*.pid
+report_figures/*.png
+report_figures/*.jpg
+report_figures/*.pdf
+
+# Report and Presentation files
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.pptx
+*.ppt
+*.odp
+*.odt
+*.pdf
+*.pages
+*.numbers
+
+# Archive files
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.tar.gz
+
+# OS specific
+.AppleDouble
+.LSOverride
+*.msix
+.vscode-server/
+
+# PyCharm
+.dmypy.json
+dmypy.json
+
+# Backup files
+*.bak
+*.backup
+*~
+.swp
