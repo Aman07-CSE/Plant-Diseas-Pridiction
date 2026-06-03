@@ -1,5 +1,7 @@
 # Plant Disease Prediction - Run Guide
 
+Live Link : `https://plant-diseas-pridiction-1.onrender.com`
+
 This project has:
 - Backend: Flask + PyTorch + Gemini API
 - Frontend: React + Vite
