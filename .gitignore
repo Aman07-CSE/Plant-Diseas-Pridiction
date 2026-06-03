@@ -47,9 +47,7 @@ dist/
 *.ipynb_checkpoints
 
 # --- ML Model Weight Files & Datasets ---
-plant_model.pth
-*.pth
-*.pt
+
 *.onnx
 *.ckpt
 model_cache/
