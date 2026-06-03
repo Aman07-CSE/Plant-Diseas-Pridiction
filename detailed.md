@@ -1,5 +1,9 @@
 # Plant Disease Prediction - Detailed Project Documentation
 
+```powershell
+Live Link : "https://plant-diseas-pridiction-1.onrender.com"
+```
+
 ## 1. Project Overview
 
 This is a full-stack AI web application for plant disease diagnosis from leaf images.
