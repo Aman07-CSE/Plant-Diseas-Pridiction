@@ -55,14 +55,28 @@ frontend/.vite-cache/
 *.ipynb_checkpoints
 
 # ML Model artifacts
-*.pth~
-*.pt~
-*.onnx~
+# ML Model artifacts
+# model weights and intermediates
+plant_model.pth
+*.pth
+*.pt
+*.onnx
+*.ckpt
 model_cache/
 checkpoints/
 
 # Large dataset (keep this if you want to exclude the dataset folder)
 plantvillage dataset/
+
+# Archives and attachments (presented as uploaded files)
+*.zip
+*.tar.gz
+*.tar
+*.rar
+
+# Backend and environment secrets (explicit)
+backend/.env
+.env
 
 # Report and cache files
 *.log
@@ -83,14 +97,6 @@ report_figures/*.pdf
 *.pdf
 *.pages
 *.numbers
-
-# Archive files
-*.zip
-*.rar
-*.7z
-*.tar
-*.gz
-*.tar.gz
 
 # OS specific
 .AppleDouble
