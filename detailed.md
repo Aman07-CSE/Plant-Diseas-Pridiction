@@ -1,8 +1,8 @@
 # Plant Disease Prediction - Detailed Project Documentation
 
-```powershell
-Live Link : "https://plant-diseas-pridiction-1.onrender.com"
-```
+
+- /api ->Live Link : "https://plant-diseas-pridiction-1.onrender.com"
+
 
 ## 1. Project Overview
 
