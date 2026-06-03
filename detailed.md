@@ -1,7 +1,7 @@
 # Plant Disease Prediction - Detailed Project Documentation
 
 
-- /api ->Live Link : "https://plant-diseas-pridiction-1.onrender.com"
+ ->Live Link : "https://plant-diseas-pridiction-1.onrender.com"
 
 
 ## 1. Project Overview
